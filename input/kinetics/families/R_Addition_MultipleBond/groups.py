@@ -17452,6 +17452,40 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1202,
+    label = "Cds-CdCs_Cds-CdCs_benzene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D} {8,S}
+8    C  u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1203,
+    label = "Cds-CdCs_Cds-CdH_benzene",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    C  u0 {3,D} {8,S}
+8    C  u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -18121,12 +18155,14 @@ L1: R_R
                                 L9: Cds-CdCs_Cds-COH
                                 L9: Cds-CdCs_Cds-(Cd-Cd-Cd)H
                                 L9: Cds-CdCs_Cds-CdH
+                                    L10: Cds-CdCs_Cds-CdH_benzene
                                 L9: Cds-CdCs_Cds-C=SH
                             L8: Cds-CdCs_Cds-OneDeCs
                                 L9: Cds-CdCs_Cds-CtCs
                                 L9: Cds-CdCs_Cds-CbCs
                                 L9: Cds-CdCs_Cds-COCs
                                 L9: Cds-CdCs_Cds-CdCs
+                                    L10: Cds-CdCs_Cds-CdCs_benzene
                                 L9: Cds-CdCs_Cds-C=SCs
                             L8: Cds-CdCs_Cds-OneDeOs
                                 L9: Cds-CdCs_Cds-CtOs
