@@ -3651,6 +3651,43 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 254,
+    label = "R7_SSSS_D_Benzene",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 R!H      u0 {1,S} {3,S}
+3 *6 R!H      u0 {2,S} {4,S}
+4 *7 R!H      u0 {3,S} {5,S}
+5 *5 R!H      u0 {4,S} {6,S} {10,D}
+6 *2 Cd       u0 {5,S} {7,D}
+7 *3 [Cd,Cdd] u0 c0 {6,D} {8,S}
+8    Cd       u0 {7,S} {9,D}
+9    Cd       u0 {8,D} {10,S}
+10   Cd       u0 {9,S} {5,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 255,
+    label = "R6_SSS_D_Benzene",
+    group = 
+"""
+1 *1 R!H      u1 {2,S}
+2 *4 R!H      u0 {1,S} {3,S}
+3 *6 R!H      u0 {2,S} {4,S}
+4 *5 R!H      u0 {3,S} {5,S} {9,D}
+5 *2 Cd       u0 {4,S} {6,D}
+6 *3 [Cd,Cdd] u0 c0 {5,D} {7,S}
+7    Cd       u0 {6,S} {8,D}
+8    Cd       u0 {7,D} {9,S}
+9    Cd       u0 {8,S} {4,D}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Rn
@@ -3716,6 +3753,7 @@ L1: Rn
             L4: R6_SSR
                 L5: R6_SSS
                     L6: R6_SSS_D
+                        L7: R6_SSS_D_Benzene
                     L6: R6_SSS_T
                     L6: R6_SSS_B
                     L6: R6_SSS_CO
@@ -3767,6 +3805,7 @@ L1: Rn
                 L5: R7_SSSR
                     L6: R7_SSSS
                         L7: R7_SSSS_D
+                            L8: R7_SSSS_D_Benzene
                         L7: R7_SSSS_T
                         L7: R7_SSSS_B
                         L7: R7_SSSS_CO
