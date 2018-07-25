@@ -3474,8 +3474,8 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S}
-3   Cs u0 {1,S}
-4   Cs u0 {1,S}
+3   C u0 {1,S}
+4   C u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -9251,12 +9251,12 @@ L1: Radical
                     L6: Allyl_T
                         L7: bicyclo[2.1.0]pent-2-ene-C1
                         L7: bicyclo[2.1.1]hex-2-ene-C1
+                        L7: bicyclo[2.2.0]hexa-2,5-diene-C1
+                        L7: C=CCJ(C)C=O
+                            L8: C=CCJ(C=O)C=C
                     L6: Tert_Propargyl
                     L6: C2CJCO
                         L7: C2CJCHO
-                    L6: bicyclo[2.2.0]hexa-2,5-diene-C1
-                    L6: C=CCJ(C)C=O
-                        L7: C=CCJ(C=O)C=C
                 L5: CsJO
                     L6: CsJOH
                     L6: CsJOC
