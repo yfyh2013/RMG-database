@@ -468,3 +468,29 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 """,
 )
 
+entry(
+    index = 20,
+    label = "C6H6 + C6H4 <=> C12H10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(5809, 'cm^3/(mol*s)'), n=2.526, Ea=(5.92, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Comandini2011_BenzeneBenzyne
+Original entry: C6H6 + oC6H4 <=> C12H10
+""",
+)
+
+entry(
+    index = 21,
+    label = "C12H10-2 <=> C2H2 + C10H8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.458e+14, 's^-1'), n=0.0956, Ea=(54.82, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Comandini2011_BenzeneBenzyne
+Original entry: C12H10 <=> C10H8 + C2H2
+""",
+)
+
