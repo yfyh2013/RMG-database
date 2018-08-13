@@ -455,14 +455,25 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-25.2737,-26.7232,-26.6259,-25.813,-21.9426,-17.4094,-9.23724],'J/(mol*K)'),
-        H298 = (111.585,'kJ/mol'),
-        S298 = (224.703,'J/(mol*K)'),
+        Cpdata = ([-4.215575,-5.513750,-5.959567,-5.700168,-4.724972,-3.799502,-2.061684],'cal/(mol*K)'),
+        H298 = (22.151077,'kcal/mol'),
+        S298 = (55.262715,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_3_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CCCCC1CC12C=C[CH]C=C2
+CCCCC1CC12C=CCC=C2
+CCCC1CC12C=CCC=C2
+CCC1CC12C=CCC=C2
+CC1CC12C=CCC=C2
+C1CC12C=CCC=C2
 """,
 )
 
@@ -482,14 +493,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-29.2644,-32.873,-33.5991,-32.5024,-27.0025,-21.061,-11.9334],'J/(mol*K)'),
-        H298 = (134.387,'kJ/mol'),
-        S298 = (244.923,'J/(mol*K)'),
+        Cpdata = ([-5.309800,-7.046000,-7.639200,-7.284800,-5.929400,-4.636800,-2.669400],'cal/(mol*K)'),
+        H298 = (27.449000,'kcal/mol'),
+        S298 = (56.793600,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
 u"""
-Fitted from molecule s1_3_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CCCCC1CC12C=CC=CC2
+CCCC1CC12C=CC=CC2
+CCC1CC12C=CC=CC2
+CC1CC12C=CC=CC2
+C1CC12C=CC=CC2
 """,
 )
 
@@ -1027,14 +1048,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-34.3964,-38.5478,-38.7261,-35.7498,-27.2334,-19.7056,-9.56136],'J/(mol*K)'),
-        H298 = (144.043,'kJ/mol'),
-        S298 = (223.141,'J/(mol*K)'),
+        Cpdata = ([-6.935000,-8.252500,-8.455250,-7.760250,-5.976250,-4.401000,-1.972000],'cal/(mol*K)'),
+        H298 = (24.420250,'kcal/mol'),
+        S298 = (52.049750,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Fitted from thermo library values""",
-    longDesc = 
+    shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
+    longDesc =
 u"""
-Fitted from molecule s1_4_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species are 
+CCCC1CCC12C=CC=CC2
+CCC1CCC12C=CC=CC2
+CC1CCC12C=CC=CC2
+C1CCC12C=CC=CC2
 """,
 )
 
@@ -1055,14 +1085,24 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-29.6317,-31.556,-31.0009,-28.4484,-21.7675,-15.7389,-6.57024],'J/(mol*K)'),
-        H298 = (125.442,'kJ/mol'),
-        S298 = (213.238,'J/(mol*K)'),
+        Cpdata = ([-5.588290,-6.347301,-6.292481,-5.648202,-4.333366,-3.187202,-1.110421],'cal/(mol*K)'),
+        H298 = (20.093492,'kcal/mol'),
+        S298 = (49.853858,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_4_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CCCC1CCC12C=C[CH]C=C2
+CCCC1CCC12C=CCC=C2
+CCC1CCC12C=CCC=C2
+CC1CCC12C=CCC=C2
+C1CCC12C=CCC=C2
 """,
 )
 
@@ -1576,14 +1616,23 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-39.7954,-42.8746,-42.2591,-38.4302,-28.2183,-19.3441,-7.24736],'J/(mol*K)'),
-        H298 = (72.801,'kJ/mol'),
-        S298 = (204.461,'J/(mol*K)'),
+        Cpdata = ([-7.894112,-8.682126,-8.637101,-7.926003,-5.953708,-3.987003,-1.329276],'cal/(mol*K)'),
+        H298 = (6.953115,'kcal/mol'),
+        S298 = (47.643822,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CCC1CCCC12C=C[CH]C=C2
+CCC1CCCC12C=CC=CC2
+CC1CCCC12C=CC=CC2
+C1CCCC12C=CC=CC2
 """,
 )
 
@@ -1605,14 +1654,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-35.6667,-36.4898,-35.0189,-31.5118,-22.9934,-15.5375,-4.36224],'J/(mol*K)'),
-        H298 = (59.3275,'kJ/mol'),
-        S298 = (200.02,'J/(mol*K)'),
+        Cpdata = ([-7.105000,-7.561000,-7.379333,-6.641000,-4.951333,-3.334667,-0.764333],'cal/(mol*K)'),
+        H298 = (1.965000,'kcal/mol'),
+        S298 = (44.980333,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_5_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CCC1CCCC12C=CCC=C2
+CC1CCCC12C=CCC=C2
+C1CCCC12C=CCC=C2
 """,
 )
 
@@ -2059,14 +2116,22 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-44.2714,-46.0734,-44.5631,-39.8526,-28.0332,-18.0187,-4.52436],'J/(mol*K)'),
-        H298 = (53.0262,'kJ/mol'),
-        S298 = (178.633,'J/(mol*K)'),
+        Cpdata = ([-9.683816,-10.291834,-10.021468,-8.913670,-6.318277,-4.079337,-0.925035],'cal/(mol*K)'),
+        H298 = (1.778153,'kcal/mol'),
+        S298 = (43.546763,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_3 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CC1CCCCC12C=C[CH]C=C2
+CC1CCCCC12C=CC=CC2
+C1CCCCC12C=CC=CC2
 """,
 )
 
@@ -2089,14 +2154,21 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-40.5047,-40.1916,-37.9209,-33.5862,-23.4803,-14.826,-2.00624],'J/(mol*K)'),
-        H298 = (39.1356,'kJ/mol'),
-        S298 = (169.445,'J/(mol*K)'),
+        Cpdata = ([-8.534500,-8.618000,-8.308000,-7.424500,-5.163000,-3.134500,-0.209000],'cal/(mol*K)'),
+        H298 = (-2.863500,'kcal/mol'),
+        S298 = (39.599000,'cal/(mol*K)'),
     ),
     shortDesc = u"""Fitted from thermo library values""",
     longDesc = 
 u"""
-Fitted from molecule s1_6_6_diene_1_4 from Bicyclics_QM_190_isomorphic library.
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 8/2018, Lawrence Lai
+
+Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
+http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
+
+Model species were:
+CC1CCCCC12C=CCC=C2
+C1CCCCC12C=CCC=C2
 """,
 )
 
