@@ -4898,3 +4898,1675 @@ Hindered Rotors Included: 1
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Naphthalenes
 """,
 )
+
+entry(
+    index = 82,
+    label = "Rad2PM_Stable_1_4",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
+4  C u0 p0 c0 {3,S} {5,S} {20,S} {21,S}
+5  C u0 p0 c0 {4,S} {6,S} {7,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {5,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,S} {27,S} {28,S}
+11 C u0 p0 c0 {10,S} {12,D} {29,S}
+12 C u0 p0 c0 {7,S} {11,D} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {4,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {10,S}
+29 H u0 p0 c0 {11,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.34344, 0.0858667, -1.15696e-06, -4.12388e-08, 1.67223e-11, 6340.57, 14.7226],
+                Tmin = (10, 'K'),
+                Tmax = (1107.46, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [13.2234, 0.0831692, -4.21834e-05, 1.03546e-08, -9.96144e-13, 2129.33, -43.0839],
+                Tmin = (1107.46, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (52.7757, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (715.045, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 4
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 83,
+    label = "Rad3PM_Stable_1_4",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
+4  C u0 p0 c0 {3,S} {5,S} {7,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {4,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,S} {27,S} {28,S}
+11 C u0 p0 c0 {10,S} {12,D} {29,S}
+12 C u0 p0 c0 {7,S} {11,D} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {10,S}
+29 H u0 p0 c0 {11,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.44108, 0.0642316, 8.29581e-05, -1.49786e-07, 6.29152e-11, 5117.69, 14.3512],
+                Tmin = (10, 'K'),
+                Tmax = (853.272, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.06462, 0.105711, -5.97757e-05, 1.62807e-08, -1.72241e-12, 3736.18, 7.63588],
+                Tmin = (853.272, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (42.5821, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (719.202, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 84,
+    label = "Rad4PM_Stable_1_4",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {7,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {19,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {3,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,S} {27,S} {28,S}
+11 C u0 p0 c0 {10,S} {12,D} {29,S}
+12 C u0 p0 c0 {7,S} {11,D} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {10,S}
+29 H u0 p0 c0 {11,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.52223, 0.0522168, 0.00013229, -2.2085e-07, 9.74754e-11, -3513.32, 13.7127],
+                Tmin = (10, 'K'),
+                Tmax = (773.576, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-0.340462, 0.113235, -6.56163e-05, 1.82946e-08, -1.9766e-12, -4143.82, 23.4183],
+                Tmin = (773.576, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-29.2088, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (723.359, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 85,
+    label = "Rad5PM_Stable_1_4",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {19,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {2,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,S} {27,S} {28,S}
+11 C u0 p0 c0 {10,S} {12,D} {29,S}
+12 C u0 p0 c0 {7,S} {11,D} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {10,S}
+29 H u0 p0 c0 {11,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.86125, 0.00956291, 0.000413124, -8.77492e-07, 6.15278e-10, -5410.6, 14.4777],
+                Tmin = (10, 'K'),
+                Tmax = (364.504, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-7.04705, 0.129269, -7.94912e-05, 2.3491e-08, -2.67666e-12, -4615.38, 56.0951],
+                Tmin = (364.504, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-44.9949, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (727.516, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCCCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 86,
+    label = "Rad2PM_Stable_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
+4  C u0 p0 c0 {3,S} {5,S} {20,S} {21,S}
+5  C u0 p0 c0 {4,S} {6,S} {7,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {5,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,D} {27,S}
+11 C u0 p0 c0 {10,D} {12,S} {28,S}
+12 C u0 p0 c0 {7,S} {11,S} {29,S} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {4,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {11,S}
+29 H u0 p0 c0 {12,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.39432, 0.0844029, 2.03879e-06, -4.3642e-08, 1.73122e-11, 6763.06, 14.1883],
+                Tmin = (10, 'K'),
+                Tmax = (1114.23, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [13.5446, 0.0823604, -4.15166e-05, 1.01234e-08, -9.67382e-13, 2365.95, -45.4602],
+                Tmin = (1114.23, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (56.3025, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (715.045, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 4
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 87,
+    label = "Rad3PM_Stable_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
+4  C u0 p0 c0 {3,S} {5,S} {7,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {4,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,D} {27,S}
+11 C u0 p0 c0 {10,D} {12,S} {28,S}
+12 C u0 p0 c0 {7,S} {11,S} {29,S} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {11,S}
+29 H u0 p0 c0 {12,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.45855, 0.0653917, 7.43923e-05, -1.34807e-07, 5.51659e-11, 5386.86, 13.9205],
+                Tmin = (10, 'K'),
+                Tmax = (885.75, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.84315, 0.103556, -5.78104e-05, 1.55549e-08, -1.62786e-12, 3753.49, 3.27611],
+                Tmin = (885.75, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (44.8379, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (719.202, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 88,
+    label = "Rad4PM_Stable_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
+3  C u0 p0 c0 {2,S} {4,S} {7,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {19,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {3,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,D} {27,S}
+11 C u0 p0 c0 {10,D} {12,S} {28,S}
+12 C u0 p0 c0 {7,S} {11,S} {29,S} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {11,S}
+29 H u0 p0 c0 {12,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.44008, 0.0497685, 0.000179846, -3.36273e-07, 1.75281e-10, -2490.91, 14.0197],
+                Tmin = (10, 'K'),
+                Tmax = (629.735, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-1.99102, 0.120005, -7.25798e-05, 2.10769e-08, -2.36093e-12, -2515.51, 32.0835],
+                Tmin = (629.735, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-20.788, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (723.359, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 89,
+    label = "Rad5PM_Stable_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+2  C u0 p0 c0 {1,S} {3,S} {7,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {19,S} {20,S}
+5  C u0 p0 c0 {4,S} {6,S} {21,S} {22,S}
+6  C u0 p0 c0 {5,S} {7,S} {23,S} {24,S}
+7  C u0 p0 c0 {2,S} {6,S} {8,S} {12,S}
+8  C u0 p0 c0 {7,S} {9,D} {25,S}
+9  C u0 p0 c0 {8,D} {10,S} {26,S}
+10 C u0 p0 c0 {9,S} {11,D} {27,S}
+11 C u0 p0 c0 {10,D} {12,S} {28,S}
+12 C u0 p0 c0 {7,S} {11,S} {29,S} {30,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {1,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {4,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {5,S}
+23 H u0 p0 c0 {6,S}
+24 H u0 p0 c0 {6,S}
+25 H u0 p0 c0 {8,S}
+26 H u0 p0 c0 {9,S}
+27 H u0 p0 c0 {10,S}
+28 H u0 p0 c0 {11,S}
+29 H u0 p0 c0 {12,S}
+30 H u0 p0 c0 {12,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.64358, 0.0492086, 0.000131897, -2.06411e-07, 8.5801e-11, -5322.43, 13.1957],
+                Tmin = (10, 'K'),
+                Tmax = (828.208, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.236516, 0.111341, -6.336e-05, 1.73522e-08, -1.84441e-12, -6324.63, 19.5332],
+                Tmin = (828.208, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-44.1914, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (727.516, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCCCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 90,
+    label = "Rad2PM_Stable_1_4_Propyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {4,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,S} {24,S} {25,S}
+10 C u0 p0 c0 {9,S} {11,D} {26,S}
+11 C u0 p0 c0 {6,S} {10,D} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.43436, 0.0611212, 6.15585e-05, -1.19732e-07, 5.08331e-11, 9472.77, 13.9319],
+                Tmin = (10, 'K'),
+                Tmax = (855.289, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.5949, 0.0933106, -5.26652e-05, 1.4331e-08, -1.51554e-12, 8240.5, 6.13916],
+                Tmin = (855.289, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (78.7728, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (644.372, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 91,
+    label = "Rad2PM_Stable_1_4_Ethyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
+9  C u0 p0 c0 {8,S} {10,D} {23,S}
+10 C u0 p0 c0 {5,S} {9,D} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {8,S}
+23 H u0 p0 c0 {9,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.65879, 0.0368909, 0.000127353, -2.13568e-07, 9.82818e-11, 12631.9, 13.2628],
+                Tmin = (10, 'K'),
+                Tmax = (732.059, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.0142515, 0.0910384, -5.37413e-05, 1.52288e-08, -1.66794e-12, 12248.2, 23.4436],
+                Tmin = (732.059, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (105.018, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (573.699, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 92,
+    label = "Rad2PM_Stable_1_4_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {13,S}
+3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
+5  C u0 p0 c0 {4,S} {6,D} {16,S}
+6  C u0 p0 c0 {5,D} {7,S} {17,S}
+7  C u0 p0 c0 {6,S} {8,S} {18,S} {19,S}
+8  C u0 p0 c0 {7,S} {9,D} {20,S}
+9  C u0 p0 c0 {4,S} {8,D} {21,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {7,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.88962, 0.00726038, 0.000273608, -5.59837e-07, 3.68798e-10, 16128.2, 12.7196],
+                Tmin = (10, 'K'),
+                Tmax = (446.749, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-3.19907, 0.0879163, -5.49075e-05, 1.65082e-08, -1.91236e-12, 16590.1, 39.2872],
+                Tmin = (446.749, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (134.081, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (503.026, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 93,
+    label = "Rad2PM_Stable_1_4_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+4  C u0 p0 c0 {3,S} {5,D} {13,S}
+5  C u0 p0 c0 {4,D} {6,S} {14,S}
+6  C u0 p0 c0 {5,S} {7,S} {15,S} {16,S}
+7  C u0 p0 c0 {6,S} {8,D} {17,S}
+8  C u0 p0 c0 {3,S} {7,D} {18,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {6,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {7,S}
+18 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.93323, 0.00408659, 0.000207425, -3.70477e-07, 2.13143e-10, 19901.4, 11.0848],
+                Tmin = (10, 'K'),
+                Tmax = (448.805, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-4.90374, 0.0826089, -5.42188e-05, 1.69947e-08, -2.03453e-12, 20697, 46.6649],
+                Tmin = (448.805, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (165.447, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (432.353, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 94,
+    label = "Rad2PM_Stable_1_3_Propyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {17,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {4,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,D} {24,S}
+10 C u0 p0 c0 {9,D} {11,S} {25,S}
+11 C u0 p0 c0 {6,S} {10,S} {26,S} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.44882, 0.0603347, 6.58553e-05, -1.2596e-07, 5.36699e-11, 9867.78, 13.6864],
+                Tmin = (10, 'K'),
+                Tmax = (849.033, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [3.54211, 0.0937942, -5.31478e-05, 1.45083e-08, -1.53819e-12, 8630.13, 6.05628],
+                Tmin = (849.033, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (82.0598, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (644.372, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 95,
+    label = "Rad2PM_Stable_1_3_Ethyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,D} {21,S}
+9  C u0 p0 c0 {8,D} {10,S} {22,S}
+10 C u0 p0 c0 {5,S} {9,S} {23,S} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {9,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.66129, 0.0375469, 0.000124163, -2.07549e-07, 9.46182e-11, 13066.2, 12.8793],
+                Tmin = (10, 'K'),
+                Tmax = (742.29, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.28071, 0.0905828, -5.33717e-05, 1.50915e-08, -1.64946e-12, 12608.8, 21.7197],
+                Tmin = (742.29, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (108.635, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (573.699, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 96,
+    label = "Rad2PM_Stable_1_3_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {3,S} {4,S} {13,S}
+3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
+5  C u0 p0 c0 {4,S} {6,D} {16,S}
+6  C u0 p0 c0 {5,D} {7,S} {17,S}
+7  C u0 p0 c0 {6,S} {8,D} {18,S}
+8  C u0 p0 c0 {7,D} {9,S} {19,S}
+9  C u0 p0 c0 {4,S} {8,S} {20,S} {21,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.88045, 0.00765351, 0.000266708, -5.32004e-07, 3.38617e-10, 16697.3, 12.6199],
+                Tmin = (10, 'K'),
+                Tmax = (471.157, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-3.15974, 0.0880997, -5.52323e-05, 1.66715e-08, -1.93827e-12, 17131.2, 38.8511],
+                Tmin = (471.157, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (138.802, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (503.026, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 97,
+    label = "Rad2PM_Stable_1_3_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+4  C u0 p0 c0 {3,S} {5,D} {13,S}
+5  C u0 p0 c0 {4,D} {6,S} {14,S}
+6  C u0 p0 c0 {5,S} {7,D} {15,S}
+7  C u0 p0 c0 {6,D} {8,S} {16,S}
+8  C u0 p0 c0 {3,S} {7,S} {17,S} {18,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {6,S}
+16 H u0 p0 c0 {7,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {8,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.93286, 0.00409386, 0.000207141, -3.68779e-07, 2.11279e-10, 20374.1, 10.9505],
+                Tmin = (10, 'K'),
+                Tmax = (456.744, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-4.98986, 0.0830284, -5.46922e-05, 1.71932e-08, -2.06271e-12, 21180.9, 46.9148],
+                Tmin = (456.744, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (169.376, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (432.353, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 98,
+    label = "Rad3PM_Stable_1_4_Ethyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {6,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {3,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,S} {24,S} {25,S}
+10 C u0 p0 c0 {9,S} {11,D} {26,S}
+11 C u0 p0 c0 {6,S} {10,D} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.64857, 0.0436772, 0.000126403, -2.04027e-07, 8.8293e-11, 8376.48, 13.457],
+                Tmin = (10, 'K'),
+                Tmax = (790.601, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.349597, 0.100689, -5.82656e-05, 1.62012e-08, -1.7449e-12, 7637.99, 20.628],
+                Tmin = (790.601, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (69.6751, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (648.529, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 99,
+    label = "Rad3PM_Stable_1_4_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {14,S}
+3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
+9  C u0 p0 c0 {8,S} {10,D} {23,S}
+10 C u0 p0 c0 {5,S} {9,D} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {8,S}
+23 H u0 p0 c0 {9,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.90906, 0.00634731, 0.000334522, -7.11219e-07, 4.99193e-10, 11959.5, 13.4429],
+                Tmin = (10, 'K'),
+                Tmax = (364.332, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-4.92526, 0.103342, -6.48322e-05, 1.95556e-08, -2.27075e-12, 12603.3, 47.1432],
+                Tmin = (364.332, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (99.4433, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (577.856, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 100,
+    label = "Rad3PM_Stable_1_4_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4  C u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+5  C u0 p0 c0 {4,S} {6,D} {16,S}
+6  C u0 p0 c0 {5,D} {7,S} {17,S}
+7  C u0 p0 c0 {6,S} {8,S} {18,S} {19,S}
+8  C u0 p0 c0 {7,S} {9,D} {20,S}
+9  C u0 p0 c0 {4,S} {8,D} {21,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {7,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.91907, 0.00499209, 0.000246679, -4.46117e-07, 2.60809e-10, 16613.4, 12.5324],
+                Tmin = (10, 'K'),
+                Tmax = (442.286, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-6.12678, 0.0958917, -6.17604e-05, 1.90336e-08, -2.24752e-12, 17501.6, 52.7973],
+                Tmin = (442.286, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (138.105, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (507.183, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 101,
+    label = "Rad3PM_Stable_1_3_Ethyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
+3  C u0 p0 c0 {2,S} {4,S} {6,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {3,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,D} {24,S}
+10 C u0 p0 c0 {9,D} {11,S} {25,S}
+11 C u0 p0 c0 {6,S} {10,S} {26,S} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.63319, 0.0442413, 0.000125489, -2.04119e-07, 8.88333e-11, 8576.74, 13.1276],
+                Tmin = (10, 'K'),
+                Tmax = (785.788, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [0.312834, 0.100871, -5.84483e-05, 1.62743e-08, -1.75506e-12, 7872.05, 20.5416],
+                Tmin = (785.788, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (71.3342, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (648.529, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CCC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 102,
+    label = "Rad3PM_Stable_1_3_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {5,S} {14,S}
+3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,D} {21,S}
+9  C u0 p0 c0 {8,D} {10,S} {22,S}
+10 C u0 p0 c0 {5,S} {9,S} {23,S} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {9,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.88561, 0.00763415, 0.000321199, -6.60951e-07, 4.41103e-10, 12009.7, 13.3891],
+                Tmin = (10, 'K'),
+                Tmax = (430.619, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-4.70764, 0.102903, -6.44628e-05, 1.94148e-08, -2.2511e-12, 12606.5, 45.9436],
+                Tmin = (430.619, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (99.8429, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (577.856, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 103,
+    label = "Rad3PM_Stable_1_3_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
+3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
+4  C u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+5  C u0 p0 c0 {4,S} {6,D} {16,S}
+6  C u0 p0 c0 {5,D} {7,S} {17,S}
+7  C u0 p0 c0 {6,S} {8,D} {18,S}
+8  C u0 p0 c0 {7,D} {9,S} {19,S}
+9  C u0 p0 c0 {4,S} {8,S} {20,S} {21,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {5,S}
+17 H u0 p0 c0 {6,S}
+18 H u0 p0 c0 {7,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.91936, 0.00496284, 0.000246542, -4.44404e-07, 2.58724e-10, 16633.9, 12.2127],
+                Tmin = (10, 'K'),
+                Tmax = (444.497, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-6.23742, 0.0964355, -6.23864e-05, 1.93006e-08, -2.28599e-12, 17536.1, 52.97],
+                Tmin = (444.497, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (138.275, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (507.183, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 104,
+    label = "Rad4PM_Stable_1_4_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {2,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,S} {24,S} {25,S}
+10 C u0 p0 c0 {9,S} {11,D} {26,S}
+11 C u0 p0 c0 {6,S} {10,D} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.87732, 0.0085045, 0.00037273, -7.97311e-07, 5.6331e-10, -199.678, 14.442],
+                Tmin = (10, 'K'),
+                Tmax = (361.679, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-5.80292, 0.115564, -7.12838e-05, 2.11249e-08, -2.4127e-12, 500.547, 51.2988],
+                Tmin = (361.679, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-1.66489, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (652.686, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 105,
+    label = "Rad4PM_Stable_1_4_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
+3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {1,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,S} {21,S} {22,S}
+9  C u0 p0 c0 {8,S} {10,D} {23,S}
+10 C u0 p0 c0 {5,S} {9,D} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {8,S}
+23 H u0 p0 c0 {9,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.90478, 0.00594065, 0.000287162, -5.27966e-07, 3.14973e-10, 4416.97, 13.7364],
+                Tmin = (10, 'K'),
+                Tmax = (431.524, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-7.17767, 0.108492, -6.86977e-05, 2.08567e-08, -2.43289e-12, 5375.08, 57.9078],
+                Tmin = (431.524, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (36.695, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (582.013, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 106,
+    label = "Rad4PM_Stable_1_3_Methyl",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {2,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,D} {24,S}
+10 C u0 p0 c0 {9,D} {11,S} {25,S}
+11 C u0 p0 c0 {6,S} {10,S} {26,S} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {1,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.89792, 0.00700034, 0.000371428, -7.7005e-07, 5.25519e-10, 158.119, 13.8983],
+                Tmin = (10, 'K'),
+                Tmax = (375.146, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-6.56842, 0.118583, -7.46668e-05, 2.25898e-08, -2.6292e-12, 943.508, 54.1322],
+                Tmin = (375.146, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (1.3156, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (652.686, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for CC1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 107,
+    label = "Rad4PM_Stable_1_3_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
+3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
+4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {1,S} {4,S} {6,S} {10,S}
+6  C u0 p0 c0 {5,S} {7,D} {19,S}
+7  C u0 p0 c0 {6,D} {8,S} {20,S}
+8  C u0 p0 c0 {7,S} {9,D} {21,S}
+9  C u0 p0 c0 {8,D} {10,S} {22,S}
+10 C u0 p0 c0 {5,S} {9,S} {23,S} {24,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {7,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {9,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.90507, 0.0058801, 0.000285205, -5.19577e-07, 3.06619e-10, 4213.77, 13.2176],
+                Tmin = (10, 'K'),
+                Tmax = (438.937, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-7.40946, 0.109352, -6.96372e-05, 2.12527e-08, -2.48992e-12, 5203.54, 58.4474],
+                Tmin = (438.937, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (35.0042, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (582.013, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 108,
+    label = "Rad5PM_Stable_1_4_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {1,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,S} {24,S} {25,S}
+10 C u0 p0 c0 {9,S} {11,D} {26,S}
+11 C u0 p0 c0 {6,S} {10,D} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.89137, 0.00682107, 0.000328212, -6.08934e-07, 3.67213e-10, -1041.97, 13.8838],
+                Tmin = (10, 'K'),
+                Tmax = (427.019, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-8.43397, 0.122215, -7.6924e-05, 2.32373e-08, -2.70023e-12, 11.2101, 62.8649],
+                Tmin = (427.019, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-8.69571, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (656.843, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCCCC12C=CCC=C2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
+
+entry(
+    index = 109,
+    label = "Rad5PM_Stable_1_3_Ring",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
+2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+3  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
+4  C u0 p0 c0 {3,S} {5,S} {18,S} {19,S}
+5  C u0 p0 c0 {4,S} {6,S} {20,S} {21,S}
+6  C u0 p0 c0 {1,S} {5,S} {7,S} {11,S}
+7  C u0 p0 c0 {6,S} {8,D} {22,S}
+8  C u0 p0 c0 {7,D} {9,S} {23,S}
+9  C u0 p0 c0 {8,S} {10,D} {24,S}
+10 C u0 p0 c0 {9,D} {11,S} {25,S}
+11 C u0 p0 c0 {6,S} {10,S} {26,S} {27,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {1,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {4,S}
+20 H u0 p0 c0 {5,S}
+21 H u0 p0 c0 {5,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {8,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {11,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(
+                coeffs = [3.89257, 0.00673355, 0.000328392, -6.07236e-07, 3.64637e-10, -1418.53, 13.2768],
+                Tmin = (10, 'K'),
+                Tmax = (429.633, 'K'),
+            ),
+            NASAPolynomial(
+                coeffs = [-8.58503, 0.122997, -7.78507e-05, 2.36416e-08, -2.75957e-12, -347.23, 62.9227],
+                Tmin = (429.633, 'K'),
+                Tmax = (3000, 'K'),
+            ),
+        ],
+        Tmin = (10, 'K'),
+        Tmax = (3000, 'K'),
+        E0 = (-11.8262, 'kJ/mol'),
+        Cp0 = (33.2579, 'J/(mol*K)'),
+        CpInf = (656.843, 'J/(mol*K)'),
+    ),
+    shortDesc = u"""library value for C1CCCCC12C=CC=CC2 calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Level of theory: CBS-QB3
+Hindered Rotors Included: 0
+Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
+""",
+)
