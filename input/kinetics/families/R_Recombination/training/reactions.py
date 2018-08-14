@@ -3835,3 +3835,75 @@ Converted to training reaction from rate rule: H_rad;SsJ-H
 """,
 )
 
+entry(
+    index = 141,
+    label = "C6H5 + C6H5 <=> C12H10",
+    degeneracy = 0.5,
+    kinetics = Arrhenius(
+        A = (1.55e+14, 'cm^3/(mol*s)'),
+        n = -0.446,
+        Ea = (-0.55, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: C6H5 + C6H5 <=> biphenyl
+""",
+)
+
+entry(
+    index = 142,
+    label = "H + C12H9 <=> C12H10-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.27e+13, 'cm^3/(mol*s)'),
+        n = 0.338,
+        Ea = (-0.158, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: oC12H9 + H <=> biphenyl
+""",
+)
+
+entry(
+    index = 143,
+    label = "H + C12H9-2 <=> C12H10-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.25e+13, 'cm^3/(mol*s)'),
+        n = 0.284,
+        Ea = (-0.155, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: mC12H9 + H <=> biphenyl
+""",
+)
+
+entry(
+    index = 144,
+    label = "H + C12H9-3 <=> C12H10-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.78e+13, 'cm^3/(mol*s)'),
+        n = 0.185,
+        Ea = (0.015, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: pC12H9 + H <=> biphenyl
+""",
+)
+

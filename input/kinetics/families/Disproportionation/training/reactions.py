@@ -3675,3 +3675,16 @@ Converted to training reaction from rate rule: C_rad/H/TwoDe;Cmethyl_Csrad/H/Cd
 """,
 )
 
+entry(
+    index = 136,
+    label = "C6H5 + C6H5-2 <=> C6H6 + C6H4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1350, 'cm^3/(mol*s)'), n=2.7, Ea=(-4.403, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: C6H5 + C6H5 <=> C6H6 + oC6H4s
+""",
+)
+

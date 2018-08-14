@@ -186,19 +186,19 @@ entry(
 
 entry(
     index = 2,
-    label = "biphenyl <=> oC12H9 + H",
+    label = "oC12H9 + H <=> biphenyl",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.27e+13, 'cm^3/(mol*s)'),
         n = 0.338,
-        Ea = (-0.155, 'kcal/mol'),
+        Ea = (-0.158, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
 )
 
 entry(
     index = 3,
-    label = "biphenyl <=> mC12H9 + H",
+    label = "mC12H9 + H <=> biphenyl",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.25e+13, 'cm^3/(mol*s)'),
@@ -210,7 +210,7 @@ entry(
 
 entry(
     index = 4,
-    label = "biphenyl <=> pC12H9 + H",
+    label = "pC12H9 + H <=> biphenyl",
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.78e+13, 'cm^3/(mol*s)'),

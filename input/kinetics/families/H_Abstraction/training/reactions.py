@@ -64028,3 +64028,29 @@ Converted to training reaction manually from rate rule: N5dc/H/NonDeOO;NH2_rad
 """,
 )
 
+entry(
+    index = 3079,
+    label = "C6H5-3 + C6H5-3 <=> C6H6 + C6H4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(488, 'cm^3/(mol*s)'), n=2.9, Ea=(-2.786, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: C6H5 + C6H5 <=> C6H6 + mC6H4s
+""",
+)
+
+entry(
+    index = 3080,
+    label = "C6H5-4 + C6H5-4 <=> C6H6 + C6H4-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(78.3, 'cm^3/(mol*s)'), n=3.13, Ea=(0.982, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    longDesc = 
+u"""
+Training reaction from kinetics library: Tranter2010_C6H5recomb
+Original entry: C6H5 + C6H5 <=> C6H6 + pC6H4s
+""",
+)
+
