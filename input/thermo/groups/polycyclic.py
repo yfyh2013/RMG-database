@@ -1060,7 +1060,7 @@ Based on CBS-QB3 calculations and group values for radical groups already presen
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
 http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
 
-Model species are 
+Model species are:
 CCCC1CCC12C=CC=CC2
 CCC1CCC12C=CC=CC2
 CC1CCC12C=CC=CC2
