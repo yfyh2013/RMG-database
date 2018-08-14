@@ -175,3 +175,63 @@ Number of Rotors included: 2
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """
 )
+
+entry(
+    index = 12,
+    label = "rad4 <=> EthyltetralinRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(29023.5, 's^-1'), n=1.19861, Ea=(27.5998, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc = u"Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory",
+    longDesc = 
+"""
+Calculation for rad4 <=> EthyltetralinRad
+Level of Theory: CBS-QB3
+Number of Rotors included: 2
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add_Exocyclic
+"""
+)
+
+entry(
+    index = 13,
+    label = "rad3 <=> PropylindaneRad",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(14489047644, 's^-1'), n=1.22276, Ea=(57.6245, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc = u"Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory",
+    longDesc = 
+"""
+Calculation for rad3 <=> PropylindaneRad
+Level of Theory: CBS-QB3
+Number of Rotors included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add_Exocyclic
+"""
+)
+
+entry(
+    index = 14,
+    label = "EthyltetralinRad <=> Ethyltetralin + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(2.59167e+10, 's^-1'), n=0.899322, Ea=(121.108, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc = u"Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory",
+    longDesc = 
+"""
+Calculation for EthyltetralinRad <=> Ethyltetralin + H
+Level of Theory: CBS-QB3
+Number of Rotors included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+"""
+)
+
+entry(
+    index = 15,
+    label = "PropylindaneRad <=> Propylindane + H",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(1.44564e+10, 's^-1'), n=0.96702, Ea=(108.102, 'kJ/mol'), T0=(1, 'K')),
+    shortDesc = u"Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory",
+    longDesc = 
+"""
+Calculation for PropylindaneRad <=> Propylindane + H
+Level of Theory: CBS-QB3
+Number of Rotors included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+"""
+)
