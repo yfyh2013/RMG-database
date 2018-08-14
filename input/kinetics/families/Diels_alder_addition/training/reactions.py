@@ -473,7 +473,7 @@ entry(
     label = "C6H6 + C6H4 <=> C12H10",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(5809, 'cm^3/(mol*s)'), n=2.526, Ea=(5.92, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    rank = 6,
     longDesc = 
 u"""
 Training reaction from kinetics library: Comandini2011_BenzeneBenzyne
@@ -486,7 +486,7 @@ entry(
     label = "C12H10-2 <=> C2H2 + C10H8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.458e+14, 's^-1'), n=0.0956, Ea=(54.82, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
+    rank = 6,
     longDesc = 
 u"""
 Training reaction from kinetics library: Comandini2011_BenzeneBenzyne
