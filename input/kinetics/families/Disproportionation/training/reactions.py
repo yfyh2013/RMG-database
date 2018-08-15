@@ -3680,11 +3680,19 @@ entry(
     label = "C6H5 + C6H5-2 <=> C6H6 + C6H4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1350, 'cm^3/(mol*s)'), n=2.7, Ea=(-4.403, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = [""'Tranter, R. S.'"", ""'Klippenstein, S. J.'"", ""'Harding, L. B.'"", ""'Giri, B. R.'"", ""'Yang, X.'"", ""'Kiefer, J. H.'""],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = ""'The Journal of Physical Chemistry A'"",
+        volume = ""'114 (32)'"",
+        pages = ""'8240-8261'"",
+        year = ""'2010'"",
+    ),
+    referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
-Training reaction from kinetics library: Tranter2010_C6H5recomb
-Original entry: C6H5 + C6H5 <=> C6H6 + oC6H4s
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 

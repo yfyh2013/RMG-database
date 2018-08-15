@@ -64033,11 +64033,19 @@ entry(
     label = "C6H5-3 + C6H5-3 <=> C6H6 + C6H4",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(488, 'cm^3/(mol*s)'), n=2.9, Ea=(-2.786, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = [""'Tranter, R. S.'"", ""'Klippenstein, S. J.'"", ""'Harding, L. B.'"", ""'Giri, B. R.'"", ""'Yang, X.'"", ""'Kiefer, J. H.'""],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = ""'The Journal of Physical Chemistry A'"",
+        volume = ""'114 (32)'"",
+        pages = ""'8240-8261'"",
+        year = ""'2010'"",
+    ),
+    referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
-Training reaction from kinetics library: Tranter2010_C6H5recomb
-Original entry: C6H5 + C6H5 <=> C6H6 + mC6H4s
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 
@@ -64046,11 +64054,19 @@ entry(
     label = "C6H5-4 + C6H5-4 <=> C6H6 + C6H4-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(78.3, 'cm^3/(mol*s)'), n=3.13, Ea=(0.982, 'kcal/mol'), T0=(1, 'K')),
+    reference = Article(
+        authors = [""'Tranter, R. S.'"", ""'Klippenstein, S. J.'"", ""'Harding, L. B.'"", ""'Giri, B. R.'"", ""'Yang, X.'"", ""'Kiefer, J. H.'""],
+        title = 'Experimental and Theoretical Investigation of the Self-Reaction of Phenyl Radicals',
+        journal = ""'The Journal of Physical Chemistry A'"",
+        volume = ""'114 (32)'"",
+        pages = ""'8240-8261'"",
+        year = ""'2010'"",
+    ),
+    referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
-Training reaction from kinetics library: Tranter2010_C6H5recomb
-Original entry: C6H5 + C6H5 <=> C6H6 + pC6H4s
+CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 
