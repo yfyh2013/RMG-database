@@ -540,7 +540,7 @@ entry(
         Ea = (41.945, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    rank = 3,
+    rank = 8,
     longDesc = 
 u"""
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
