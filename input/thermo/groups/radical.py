@@ -2531,14 +2531,14 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.472000,-1.231500,-2.398500,-2.938050,-3.454400,-3.783200,-4.811350],'cal/(mol*K)'),
-        H298 = (73.74755,'kcal/mol','+|-',2.4),
-        S298 = (-3.096600,'cal/(mol*K)'),
+        Cpdata = ([0.945375,-0.751833,-1.943750,-2.491500,-2.956167,-3.270792,-4.265125],'cal/(mol*K)'),
+        H298 = (73.081208,'kcal/mol','+|-',2.4),
+        S298 = (-2.361317,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
 u""""
-Based on CBS-QB3 calculations and group values for radical groups already present in the database, 05/2018, Lawrence Lai
+Based on CBS-QB3 calculations and group values for radical groups already present in the database, 08/2018, Lawrence Lai
 
 Uncertainty of CBS-QB3 is 2.4kcal/mol, by Somers, K, and Simmie, J, "Benchmarking Compound Methods (CBS-QB3, CBS-APNO, G3, G4, W1BD") against the Active Thermochemical  Tables: Formation Enthalpies of Radicals. 2015.
 http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448
