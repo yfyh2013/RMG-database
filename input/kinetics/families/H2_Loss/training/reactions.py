@@ -28,7 +28,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.52e+10, '1/s'), n=0.533, Ea=(17.938, 'kcal/mol'), T0=(1, 'K')),
     rank = 8,
-    longDesc = 
+    longDesc =
 u"""
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
 Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
