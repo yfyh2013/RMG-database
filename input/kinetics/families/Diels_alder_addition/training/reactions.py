@@ -544,7 +544,7 @@ entry(
     longDesc = 
 u"""
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
-Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations; 
+Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
 J. Chem. Theory Comput. 2005, 1, 908-924.
 Original entry: P + C2H2 <=> P1
 """,

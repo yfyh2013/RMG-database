@@ -24,7 +24,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Di-H-ene",
-    group = 
+    group =
 """
 1 *1 C u0 p0 c0 {2,D} {6,S}
 2 *2 C u0 p0 c0 {1,D} {3,S}
