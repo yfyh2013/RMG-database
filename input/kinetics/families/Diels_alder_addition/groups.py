@@ -1505,7 +1505,7 @@ L1: {ene,yne}
         L3: yne_unsub_unsub
         L3: yne_unsub_monosub
         L3: yne_monosub_monosub
-        L3: yne_ortho_benzyne
+            L4: yne_ortho_benzyne
 """
 )
 
