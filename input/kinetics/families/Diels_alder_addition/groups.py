@@ -1404,8 +1404,8 @@ entry(
 2     C u0 {1,S} {4,D}
 3     C u0 {1,D} {6,S}
 4     C u0 {2,D} {5,S}
-5 *1  C u0 {4,S} {6,T}
-6 *2  C u0 {3,S} {5,T}
+5 *1  Ct u0 {4,S} {6,T}
+6 *2  Ct u0 {3,S} {5,T}
 """,
     kinetics = None,
 )

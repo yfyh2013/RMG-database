@@ -135,6 +135,7 @@ entry(
     index = 4,
     label = "C6H5 + C6H5 <=> pC12H9 + H",
     degeneracy = 1,
+    allow_max_rate_violation=True,
     kinetics = PDepArrhenius(
         pressures = ([0.01, 0.1, 1, 10, 100], 'atm'),
         arrhenius = [
