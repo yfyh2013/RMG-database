@@ -1560,7 +1560,7 @@ u"""
 #
 #forbidden(
 #    label = "benzene_diene_partial1",
-#    group = 
+#    group =
 #"""
 #1 *3 Cd u0 {2,D} {6,S}
 #2 *4 Cd u0 {1,D} {3,S}
@@ -1570,7 +1570,7 @@ u"""
 #6    Cd ux {1,S} {5,D}
 #""",
 #    shortDesc = u"""""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
