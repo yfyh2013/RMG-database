@@ -24,7 +24,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "diene_out",
-    group = 
+    group =
 """
 1 *4 Cd u0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -37,7 +37,7 @@ entry(
 entry(
     index = 1,
     label = "diene_in",
-    group = 
+    group =
 """
 1 *4 [Cd,S4d,S6d,N3d,N5dc] u0 {2,S}
 2 *5 [Cd,S4d,S6d,N3d,N5dc] u0 {1,S}
@@ -55,7 +55,7 @@ entry(
 entry(
     index = 3,
     label = "diene_5ring_out",
-    group = 
+    group =
 """
 1 *3 Cd u0 {3,S} {4,D} {6,S}
 2 *6 Cd u0 {3,S} {5,D} {7,S}
@@ -71,7 +71,7 @@ entry(
 entry(
     index = 4,
     label = "diene_5ring_H_H_out",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -87,7 +87,7 @@ entry(
 entry(
     index = 5,
     label = "diene_5ring_H_Nd_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {2,D} {5,S} {6,S}
 2 *4 Cd       u0 {1,D} {3,S}
@@ -103,7 +103,7 @@ entry(
 entry(
     index = 6,
     label = "diene_5ring_Nd_Nd_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {3,S} {4,D} {6,S}
 2 *6 Cd       u0 {3,S} {5,D} {7,S}
@@ -119,7 +119,7 @@ entry(
 entry(
     index = 7,
     label = "diene_unsub_unsub_out",
-    group = 
+    group =
 """
 1 *3 Cd u0 {3,D} {5,S} {6,S}
 2 *6 Cd u0 {4,D} {7,S} {8,S}
@@ -136,7 +136,7 @@ entry(
 entry(
     index = 8,
     label = "diene_unsub_monosub_out",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {3,D} {5,S} {6,S}
 2 *6 Cd  u0 {4,D} {7,S} {8,S}
@@ -153,7 +153,7 @@ entry(
 entry(
     index = 9,
     label = "diene_unsub_monosubNd_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {2,D} {5,S} {6,S}
 2 *4 Cd       u0 {1,D} {3,S}
@@ -170,7 +170,7 @@ entry(
 entry(
     index = 10,
     label = "diene_unsub_monosubDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -187,7 +187,7 @@ entry(
 entry(
     index = 11,
     label = "diene_unsub_disub_out",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {3,D} {5,S} {6,S}
 2 *6 Cd  u0 {4,D} {7,S} {8,S}
@@ -204,7 +204,7 @@ entry(
 entry(
     index = 12,
     label = "diene_unsub_disubNd2_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {2,D} {5,S} {6,S}
 2 *4 Cd       u0 {1,D} {3,S}
@@ -221,7 +221,7 @@ entry(
 entry(
     index = 13,
     label = "diene_unsub_disubNdDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -238,7 +238,7 @@ entry(
 entry(
     index = 14,
     label = "diene_unsub_disubDe2_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -255,7 +255,7 @@ entry(
 entry(
     index = 15,
     label = "diene_monosub_monosub_out",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {3,D} {5,S} {6,S}
 2 *6 Cd  u0 {4,D} {7,S} {8,S}
@@ -272,7 +272,7 @@ entry(
 entry(
     index = 16,
     label = "diene_monosubNd_monosubNd_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {3,D} {5,S} {6,S}
 2 *6 Cd       u0 {4,D} {7,S} {8,S}
@@ -289,7 +289,7 @@ entry(
 entry(
     index = 17,
     label = "diene_monosubNd_monosubDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -306,7 +306,7 @@ entry(
 entry(
     index = 18,
     label = "diene_monosubDe_monosubDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -323,7 +323,7 @@ entry(
 entry(
     index = 19,
     label = "diene_monosub_disub_out",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {3,D} {5,S} {6,S}
 2 *6 Cd  u0 {4,D} {7,S} {8,S}
@@ -340,7 +340,7 @@ entry(
 entry(
     index = 20,
     label = "diene_monosubNd_disubNd2_out",
-    group = 
+    group =
 """
 1 *3 Cd       u0 {2,D} {5,S} {6,S}
 2 *4 Cd       u0 {1,D} {3,S}
@@ -357,7 +357,7 @@ entry(
 entry(
     index = 21,
     label = "diene_monosubNd_disubNdDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -374,7 +374,7 @@ entry(
 entry(
     index = 22,
     label = "diene_monosubNd_disubDe2_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -391,7 +391,7 @@ entry(
 entry(
     index = 23,
     label = "diene_monosubDe_disubNd2_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -408,7 +408,7 @@ entry(
 entry(
     index = 24,
     label = "diene_monosubDe_disubNdDe_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -425,7 +425,7 @@ entry(
 entry(
     index = 25,
     label = "diene_monosubDe_disubDe2_out",
-    group = 
+    group =
 """
 1 *3 Cd               u0 {2,D} {5,S} {6,S}
 2 *4 Cd               u0 {1,D} {3,S}
@@ -442,7 +442,7 @@ entry(
 entry(
     index = 26,
     label = "diene_disub_disub_out",
-    group = 
+    group =
 """
 1 *3  Cd  u0 {2,D} {5,S} {6,S}
 2 *4  Cd  u0 {1,D} {3,S}
@@ -459,7 +459,7 @@ entry(
 entry(
     index = 27,
     label = "diene_disubNd2_disubNd2_out",
-    group = 
+    group =
 """
 1 *3  Cd       u0 {2,D} {5,S} {6,S}
 2 *4  Cd       u0 {1,D} {3,S}
@@ -476,7 +476,7 @@ entry(
 entry(
     index = 28,
     label = "diene_disubNd2_disubDe_out",
-    group = 
+    group =
 """
 1 *3  Cd               u0 {2,D} {5,S} {6,S}
 2 *4  Cd               u0 {1,D} {3,S}
@@ -493,7 +493,7 @@ entry(
 entry(
     index = 29,
     label = "diene_disubDe_disubDe_out",
-    group = 
+    group =
 """
 1 *3  Cd               u0 {2,D} {5,S} {6,S}
 2 *4  Cd               u0 {1,D} {3,S}
@@ -510,7 +510,7 @@ entry(
 entry(
     index = 30,
     label = "diene_in_2H",
-    group = 
+    group =
 """
 1 *4 Cd u0 {2,S} {3,S}
 2 *5 Cd u0 {1,S} {4,S}
@@ -523,7 +523,7 @@ entry(
 entry(
     index = 31,
     label = "diene_in_HNd",
-    group = 
+    group =
 """
 1 *4 Cd       u0 {2,S} {3,S}
 2 *5 Cd       u0 {1,S} {4,S}
@@ -536,7 +536,7 @@ entry(
 entry(
     index = 32,
     label = "diene_in_HDe",
-    group = 
+    group =
 """
 1 *4 Cd               u0 {2,S} {3,S}
 2 *5 Cd               u0 {1,S} {4,S}
@@ -549,7 +549,7 @@ entry(
 entry(
     index = 33,
     label = "diene_in_NdH",
-    group = 
+    group =
 """
 1 *4 Cd       u0 {2,S} {3,S}
 2 *5 Cd       u0 {1,S} {4,S}
@@ -562,7 +562,7 @@ entry(
 entry(
     index = 34,
     label = "diene_in_DeH",
-    group = 
+    group =
 """
 1 *4 Cd               u0 {2,S} {3,S}
 2 *5 Cd               u0 {1,S} {4,S}
@@ -575,7 +575,7 @@ entry(
 entry(
     index = 35,
     label = "diene_in_Nd2",
-    group = 
+    group =
 """
 1 *4 Cd       u0 {2,S} {3,S}
 2 *5 Cd       u0 {1,S} {4,S}
@@ -588,7 +588,7 @@ entry(
 entry(
     index = 36,
     label = "diene_in_NdDe",
-    group = 
+    group =
 """
 1 *4 Cd               u0 {2,S} {3,S}
 2 *5 Cd               u0 {1,S} {4,S}
@@ -601,7 +601,7 @@ entry(
 entry(
     index = 37,
     label = "diene_in_DeNd",
-    group = 
+    group =
 """
 1 *4 Cd               u0 {2,S} {3,S}
 2 *5 Cd               u0 {1,S} {4,S}
@@ -614,7 +614,7 @@ entry(
 entry(
     index = 38,
     label = "diene_in_De2",
-    group = 
+    group =
 """
 1 *4 Cd               u0 {2,S} {3,S}
 2 *5 Cd               u0 {1,S} {4,S}
@@ -627,7 +627,7 @@ entry(
 entry(
     index = 39,
     label = "ene",
-    group = 
+    group =
 """
 1 *1 [Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc] u0 {2,D}
 2 *2 [Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc]     u0 {1,D}
@@ -638,7 +638,7 @@ entry(
 entry(
     index = 40,
     label = "ene_unsub_unsub",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2 *2 Cd u0 {1,D} {5,S} {6,S}
@@ -653,7 +653,7 @@ entry(
 entry(
     index = 41,
     label = "ene_unsub_monosub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -668,7 +668,7 @@ entry(
 entry(
     index = 42,
     label = "ene_2H_HNd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -683,7 +683,7 @@ entry(
 entry(
     index = 43,
     label = "ene_2H_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -698,7 +698,7 @@ entry(
 entry(
     index = 44,
     label = "ene_monosub_unsub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -713,7 +713,7 @@ entry(
 entry(
     index = 45,
     label = "ene_HNd_2H",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -728,7 +728,7 @@ entry(
 entry(
     index = 46,
     label = "ene_HDe_2H",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -743,7 +743,7 @@ entry(
 entry(
     index = 47,
     label = "ene_monosub_monosub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -758,7 +758,7 @@ entry(
 entry(
     index = 48,
     label = "ene_HNd_HNd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -773,7 +773,7 @@ entry(
 entry(
     index = 49,
     label = "ene_HNd_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -788,7 +788,7 @@ entry(
 entry(
     index = 50,
     label = "ene_HDe_HNd",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -803,7 +803,7 @@ entry(
 entry(
     index = 51,
     label = "ene_HDe_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -818,7 +818,7 @@ entry(
 entry(
     index = 52,
     label = "ene_unsub_disub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -833,7 +833,7 @@ entry(
 entry(
     index = 53,
     label = "ene_2H_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -848,7 +848,7 @@ entry(
 entry(
     index = 54,
     label = "ene_2H_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -863,7 +863,7 @@ entry(
 entry(
     index = 55,
     label = "ene_2H_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -878,7 +878,7 @@ entry(
 entry(
     index = 56,
     label = "ene_disub_unsub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -893,7 +893,7 @@ entry(
 entry(
     index = 57,
     label = "ene_Nd2_2H",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -908,7 +908,7 @@ entry(
 entry(
     index = 58,
     label = "ene_NdDe_2H",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -923,7 +923,7 @@ entry(
 entry(
     index = 59,
     label = "ene_De2_2H",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -938,7 +938,7 @@ entry(
 entry(
     index = 60,
     label = "ene_monosub_disub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -953,7 +953,7 @@ entry(
 entry(
     index = 61,
     label = "ene_HNd_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -968,7 +968,7 @@ entry(
 entry(
     index = 62,
     label = "ene_HNd_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -983,7 +983,7 @@ entry(
 entry(
     index = 63,
     label = "ene_HNd_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -998,7 +998,7 @@ entry(
 entry(
     index = 64,
     label = "ene_HDe_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1013,7 +1013,7 @@ entry(
 entry(
     index = 65,
     label = "ene_HDe_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1028,7 +1028,7 @@ entry(
 entry(
     index = 66,
     label = "ene_HDe_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1043,7 +1043,7 @@ entry(
 entry(
     index = 67,
     label = "ene_disub_monosub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -1058,7 +1058,7 @@ entry(
 entry(
     index = 68,
     label = "ene_Nd2_HNd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -1073,7 +1073,7 @@ entry(
 entry(
     index = 69,
     label = "ene_Nd2_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1088,7 +1088,7 @@ entry(
 entry(
     index = 70,
     label = "ene_NdDe_HNd",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1103,7 +1103,7 @@ entry(
 entry(
     index = 71,
     label = "ene_NdDe_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1118,7 +1118,7 @@ entry(
 entry(
     index = 72,
     label = "ene_De2_HNd",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1133,7 +1133,7 @@ entry(
 entry(
     index = 73,
     label = "ene_De2_HDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1148,7 +1148,7 @@ entry(
 entry(
     index = 74,
     label = "ene_disub_disub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -1163,7 +1163,7 @@ entry(
 entry(
     index = 75,
     label = "ene_Nd2_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -1178,7 +1178,7 @@ entry(
 entry(
     index = 76,
     label = "ene_Nd2_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1193,7 +1193,7 @@ entry(
 entry(
     index = 77,
     label = "ene_Nd2_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1208,7 +1208,7 @@ entry(
 entry(
     index = 78,
     label = "ene_NdDe_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1223,7 +1223,7 @@ entry(
 entry(
     index = 79,
     label = "ene_NdDe_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1238,7 +1238,7 @@ entry(
 entry(
     index = 80,
     label = "ene_NdDe_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1253,7 +1253,7 @@ entry(
 entry(
     index = 81,
     label = "ene_De2_Nd2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1268,7 +1268,7 @@ entry(
 entry(
     index = 82,
     label = "ene_De2_NdDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1283,7 +1283,7 @@ entry(
 entry(
     index = 83,
     label = "ene_De2_De2",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -1298,7 +1298,7 @@ entry(
 entry(
     index = 84,
     label = "allene",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D}
 2 *2 Cd  u0 {1,D}
@@ -1309,7 +1309,7 @@ entry(
 entry(
     index = 85,
     label = "allene_unsub",
-    group = 
+    group =
 """
 1 *2 Cd  u0 {2,D} {3,S} {4,S}
 2 *1 Cdd u0 {1,D}
@@ -1322,7 +1322,7 @@ entry(
 entry(
     index = 86,
     label = "allene_monosub",
-    group = 
+    group =
 """
 1 *2 Cd  u0 {2,D} {3,S} {4,S}
 2 *1 Cdd u0 {1,D}
@@ -1335,7 +1335,7 @@ entry(
 entry(
     index = 87,
     label = "allene_disub",
-    group = 
+    group =
 """
 1 *2 Cd  u0 {2,D} {3,S} {4,S}
 2 *1 Cdd u0 {1,D}
@@ -1348,7 +1348,7 @@ entry(
 entry(
     index = 88,
     label = "yne",
-    group = 
+    group =
 """
 1 *1 [Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {2,T}
 2 *2 [Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {1,T}
@@ -1359,7 +1359,7 @@ entry(
 entry(
     index = 89,
     label = "yne_unsub_unsub",
-    group = 
+    group =
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
@@ -1372,7 +1372,7 @@ entry(
 entry(
     index = 90,
     label = "yne_unsub_monosub",
-    group = 
+    group =
 """
 1 *1 Ct  u0 {2,T} {3,S}
 2 *2 Ct  u0 {1,T} {4,S}
@@ -1385,7 +1385,7 @@ entry(
 entry(
     index = 91,
     label = "yne_monosub_monosub",
-    group = 
+    group =
 """
 1 *1 Ct  u0 {2,T} {3,S}
 2 *2 Ct  u0 {1,T} {4,S}
@@ -1398,7 +1398,7 @@ entry(
 entry(
     index = 92,
     label = "yne_ortho_benzyne",
-    group = 
+    group =
 """
 1     C u0 {2,S} {3,D}
 2     C u0 {1,S} {4,D}
@@ -1511,12 +1511,12 @@ L1: {ene,yne}
 
 forbidden(
     label = "allene_avoid_doublecounting",
-    group = 
+    group =
 """
 1 *2 Cdd u0
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1578,7 +1578,7 @@ u"""
 #
 #forbidden(
 #    label = "benzene_diene_partial2",
-#    group = 
+#    group =
 #"""
 #1 *5 Cd u0 {2,D} {6,S}
 #2 *6 Cd u0 {1,D} {3,S}
@@ -1588,7 +1588,7 @@ u"""
 #6    Cd ux {1,S} {5,D}
 #""",
 #    shortDesc = u"""""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
@@ -1596,7 +1596,7 @@ u"""
 #
 #forbidden(
 #    label = "benzene_ene",
-#    group = 
+#    group =
 #"""
 #1 *1 Cd u0 {2,D} {6,S}
 #2 *2 Cd u0 {1,D} {3,S}
@@ -1606,7 +1606,7 @@ u"""
 #6    Cd ux {1,S} {5,D}
 #""",
 #    shortDesc = u"""""",
-#    longDesc = 
+#    longDesc =
 #u"""
 #
 #""",
@@ -1614,7 +1614,7 @@ u"""
 
 forbidden(
     label = "benzene_monoSub1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S} {7,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1626,7 +1626,7 @@ forbidden(
 8 *9 R  ux {4,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1634,7 +1634,7 @@ u"""
 
 forbidden(
     label = "benzene_monoSub2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1646,7 +1646,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1654,7 +1654,7 @@ u"""
 
 forbidden(
     label = "benzene_twoSub1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1666,7 +1666,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1674,7 +1674,7 @@ u"""
 
 forbidden(
     label = "benzene_twoSub2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1686,7 +1686,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1694,7 +1694,7 @@ u"""
 
 forbidden(
     label = "benzyl_isomer1",
-    group = 
+    group =
 """
 1 C u0 {2,D}
 2 C u0 {1,D} {3,S} {7,S}
@@ -1705,7 +1705,7 @@ forbidden(
 7 C u0 {2,S} {6,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1713,7 +1713,7 @@ u"""
 
 forbidden(
     label = "benzyl_isomer2",
-    group = 
+    group =
 """
 1 C u0 {2,D}
 2 C u0 {1,D} {3,S} {7,S}
@@ -1724,7 +1724,7 @@ forbidden(
 7 C u0 {2,S} {6,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1732,7 +1732,7 @@ u"""
 
 forbidden(
     label = "threeMemberedRing_2342",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D}
 2 *4 Cd u0 {1,D} {3,S} {4,S}
@@ -1740,7 +1740,7 @@ forbidden(
 4 *6 Cd u0 {2,S} {3,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1748,7 +1748,7 @@ u"""
 
 forbidden(
     label = "threeMemberedRing_3213",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {3,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -1756,7 +1756,7 @@ forbidden(
 4 *6 Cd u0 {3,D}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
