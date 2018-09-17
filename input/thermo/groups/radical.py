@@ -8837,13 +8837,13 @@ entry(
     label = "Aromatic_pi_T_1_3",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cd u0 {5,S} {1,S}
-7   C u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
 """,
     thermo = u'Aromatic_pi_S_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
@@ -8858,13 +8858,13 @@ entry(
     label = "Aromatic_pi_T_1_4",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
 """,
     thermo = u'Aromatic_pi_S_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
@@ -8939,14 +8939,14 @@ entry(
     label = "Aromatic_pi_T_(CH3_CH3_Ortho)_1_3",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S}
-8   C u0 {6,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
@@ -9053,13 +9053,13 @@ entry(
     label = "Aromatic_pi_T_(CH3_CH3_Para)_1_4",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
 8   C u0 {4,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_CH3_Ortho)_1_3',
@@ -9183,14 +9183,14 @@ entry(
     label = "Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S}
-8   C u0 {6,S} {9,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
 9   C u0 {8,S}
 """,
     thermo = u'Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3',
@@ -9302,13 +9302,13 @@ entry(
     label = "Aromatic_pi_T_(CH3_C2H5_Para)_1_4",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
 8   C u0 {4,S} {9,S}
 9   C u0 {8,S}
 """,
@@ -9441,14 +9441,14 @@ entry(
     label = "Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S}
-8   C u0 {6,S} {9,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   C u0 {4,S} {9,S}
 9   Cb u0 {8,S} {10,B} {14,B}
 10  Cb u0 {9,B} {11,B}
 11  Cb u0 {10,B} {12,B}
@@ -9580,13 +9580,13 @@ entry(
     label = "Aromatic_pi_T_(CH3_Benzyl_Para)_1_4",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
 8   C u0 {4,S} {9,S}
 9   Cb u0 {8,S} {10,B} {14,B}
 10  Cb u0 {9,B} {11,B}
@@ -9671,7 +9671,7 @@ entry(
 6   Cs u0 {5,S} {1,S} {9,S}
 7   H u0 {1,S}
 8   C u0 {5,S}
-9   C u0 {6,S} {10,S} {16,S}
+9   Cs u0 {6,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9712,7 +9712,7 @@ entry(
 6   Cd u0 {5,D} {1,S}
 7   H u0 {1,S}
 8   C u0 {3,S}
-9   C u0 {4,S} {10,S} {16,S}
+9   Cs u0 {4,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9733,14 +9733,14 @@ entry(
     label = "Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cd u0 {3,S} {5,D}
-5   Cd u0 {4,D} {6,S}
-6   Cs u0 {5,S} {1,S} {8,S}
-7   C u0 {1,S}
-8   C u0 {6,S} {9,S} {15,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cs u0 {1,S} {5,S} {8,S}
+5   Cd u0 {4,S} {6,D}
+6   Cd u0 {5,D} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   Cs u0 {4,S} {9,S} {15,S}
 9   Cb u0 {8,S} {10,B} {14,B}
 10  Cb u0 {9,B} {11,B}
 11  Cb u0 {10,B} {12,B}
@@ -9769,7 +9769,7 @@ entry(
 6   Cs u0 {5,S} {1,S} {9,S}
 7   H u0 {1,S}
 8   C u0 {2,S}
-9   C u0 {6,S} {10,S} {16,S}
+9   Cs u0 {6,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9798,7 +9798,7 @@ entry(
 6   Cd u0 {5,D} {1,S}
 7   H u0 {1,S}
 8   C u0 {2,S}
-9   C u0 {4,S} {10,S} {16,S}
+9   Cs u0 {4,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9827,7 +9827,7 @@ entry(
 6   Cs u0 {5,S} {1,S} {9,S}
 7   H u0 {1,S}
 8   C u0 {4,S}
-9   C u0 {6,S} {10,S} {16,S}
+9   Cs u0 {6,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9856,7 +9856,7 @@ entry(
 6   Cs u0 {5,S} {1,S} {9,S}
 7   H u0 {1,S}
 8   C u0 {3,S}
-9   C u0 {6,S} {10,S} {16,S}
+9   Cs u0 {6,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9877,14 +9877,14 @@ entry(
     label = "Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4",
     group =
 """
-1 * Cs u1 {2,S} {6,S} {7,S}
-2   Cd u0 {1,S} {3,D}
-3   Cd u0 {2,D} {4,S}
-4   Cs u0 {3,S} {5,S} {8,S}
-5   Cd u0 {4,S} {6,D}
-6   Cd u0 {5,D} {1,S}
-7   C u0 {1,S}
-8   C u0 {4,S} {9,S} {15,S}
+1 * Cs u1 {2,S} {3,S} {4,S}
+2   Cd u0 {1,S} {7,D}
+3   C u0 {1,S}
+4   Cd u0 {1,S} {5,D} {8,S}
+5   Cd u0 {4,D} {6,S}
+6   Cs u0 {5,S} {7,S}
+7   Cd u0 {6,S} {2,D}
+8   Cs u0 {4,S} {9,S} {15,S}
 9   Cb u0 {8,S} {10,B} {14,B}
 10  Cb u0 {9,B} {11,B}
 11  Cb u0 {10,B} {12,B}
@@ -9913,7 +9913,7 @@ entry(
 6   Cs u0 {5,S} {1,S} {8,S} {9,S}
 7   H u0 {1,S}
 8   C u0 {6,S}
-9   C u0 {6,S} {10,S} {16,S}
+9   Cs u0 {6,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -9942,7 +9942,7 @@ entry(
 6   Cd u0 {5,D} {1,S}
 7   H u0 {1,S}
 8   C u0 {4,S}
-9   C u0 {4,S} {10,S} {16,S}
+9   Cs u0 {4,S} {10,S} {16,S}
 10  Cb u0 {9,S} {11,B} {15,B}
 11  Cb u0 {10,B} {12,B}
 12  Cb u0 {11,B} {13,B}
@@ -10294,24 +10294,24 @@ L1: Radical
                                 L9: Aromatic_pi_S_(CH3_C2H5_Ortho)_1_3
                                     L10: Aromatic_pi_S_(fused5)_1_3
                                     L10: Aromatic_pi_S_(fused6)_1_3
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_3
                             L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_3_1
                                 L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_1
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_1
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_1
                             L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_3_2
                                 L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_3_2
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_3_2
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_3_2
                             L8: Aromatic_pi_S_(CH3_CH3_Para)_1_3
                                 L9: Aromatic_pi_S_(CH3_C2H5_Para)_1_3
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Para)_1_3
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Para)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Para)_1_3
                             L8: Aromatic_pi_S_(CH3_CH3_Sub)_1_3
                                 L9:Aromatic_pi_S_(CH3_C2H5_Sub)_1_3
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_3
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_3
                         L7: CJ-Cd-Benzene
                         L7: cyclobutene-allyl
                         L7: cyclopentene-allyl
@@ -10322,16 +10322,16 @@ L1: Radical
                                 L9: Aromatic_pi_S_(CH3_C2H5_Ortho)_1_4
                                     L10: Aromatic_pi_S_(fused5)_1_4
                                     L10: Aromatic_pi_S_(fused6)_1_4
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Ortho)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Ortho)_1_4
                             L8: Aromatic_pi_S_(CH3_CH3_Meta)_1_4
                                 L9: Aromatic_pi_S_(CH3_C2H5_Meta)_1_4
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Meta)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Meta)_1_4
                             L8: Aromatic_pi_S_(CH3_CH3_Sub)_1_4
                                 L9: Aromatic_pi_S_(CH3_C2H5_Sub)_1_4
-                                L9: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4
-                                    L10: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4
+                                    L10: Aromatic_pi_S_(CH3_Benzyl_Sub)_1_4
+                                        L11: Aromatic_pi_S_(CH3_EBenzyl_Sub)_1_4
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
                         L7: C=CCJC=C=O
@@ -10369,13 +10369,13 @@ L1: Radical
                                 L9: Aromatic_pi_T_(CH3_C2H5_Ortho)_1_3
                                     L10: Aromatic_pi_T_(fused5)_1_3
                                     L10: Aromatic_pi_T_(fused6)_1_3
-                                L9: Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3
-                                    L10: Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3
+                                    L10: Aromatic_pi_T_(CH3_Benzyl_Ortho)_1_3
+                                        L11: Aromatic_pi_T_(CH3_EBenzyl_Ortho)_1_3
                         L7: Aromatic_pi_T_1_4
                             L8: Aromatic_pi_T_(CH3_CH3_Para)_1_4
                                 L9: Aromatic_pi_T_(CH3_C2H5_Para)_1_4
-                                L9: Aromatic_pi_T_(CH3_Benzyl_Para)_1_4
-                                    L10: Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4
+                                    L10: Aromatic_pi_T_(CH3_Benzyl_Para)_1_4
+                                        L11: Aromatic_pi_T_(CH3_EBenzyl_Para)_1_4
                         L7: bicyclo[2.1.0]pent-2-ene-C1
                         L7: bicyclo[2.1.1]hex-2-ene-C1
                         L7: bicyclo[2.2.0]hexa-2,5-diene-C1
