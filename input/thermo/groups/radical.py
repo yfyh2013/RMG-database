@@ -8791,9 +8791,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-0.451500,-1.469250,-2.366250,-2.913000,-3.377750,-3.671500,-4.896250],'cal/(mol*K)'),
-        H298 = (75.415875,'kcal/mol'),
-        S298 = (0.088975,'cal/(mol*K)'),
+        Cpdata = ([1.040625,-0.795125,-2.084625,-2.830125,-3.371750,-3.645500,-4.819500],'cal/(mol*K)'),
+        H298 = (73.375125,'kcal/mol'),
+        S298 = (1.350600,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
@@ -8891,9 +8891,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.011000,-1.191750,-2.284500,-2.982000,-3.760500,-4.080500,-5.118500],'cal/(mol*K)'),
-        H298 = (75.55625,'kcal/mol'),
-        S298 = (-1.556650,'cal/(mol*K)'),
+        Cpdata = ([0.130750,-1.114000,-2.296250,-3.021000,-3.748750,-4.058000,-5.137750],'cal/(mol*K)'),
+        H298 = (73.606750,'kcal/mol'),
+        S298 = (2.793350,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
@@ -9134,9 +9134,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0.802750,-0.886250,-2.169750,-2.728250,-3.214250,-3.676000,-4.793250],'cal/(mol*K)'),
-        H298 = (73.0505,'kcal/mol'),
-        S298 = (-2.075150,'cal/(mol*K)'),
+        Cpdata = ([0.525250,-1.135000,-2.386250,-2.929750,-3.465500,-3.941500,-5.031500],'cal/(mol*K)'),
+        H298 = (72.976750,'kcal/mol'),
+        S298 = (1.253100,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
@@ -9391,9 +9391,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.770000,-0.321250,-1.614000,-2.108583,-2.461500,-2.732250,-3.594250],'cal/(mol*K)'),
-        H298 = (69.45875,'kcal/mol'),
-        S298 = (-3.252650,'cal/(mol*K)'),
+        Cpdata = ([0.863000,-0.796750,-1.879000,-2.136750,-2.472250,-2.804750,-3.598750],'cal/(mol*K)'),
+        H298 = (69.438500,'kcal/mol'),
+        S298 = (-0.852400,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
@@ -9682,9 +9682,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.770000,-0.321250,-1.614000,-2.108583,-2.461500,-2.732250,-3.594250],'cal/(mol*K)'),
-        H298 = (69.590000,'kcal/mol'),
-        S298 = (-7.461400,'cal/(mol*K)'),
+        Cpdata = ([1.696250,-0.334500,-1.595250,-2.055000,-2.456000,-2.745250,-3.500250],'cal/(mol*K)'),
+        H298 = (69.573000,'kcal/mol'),
+        S298 = (-3.622150,'cal/(mol*K)'),
     ),
     shortDesc = u"""Calculations from Hexylbenzene Library, Lawrence Lai""",
     longDesc =
