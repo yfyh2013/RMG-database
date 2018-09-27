@@ -4321,48 +4321,48 @@ calculated by alongd (xc1097) at the CCSD(T)-F12a/cc-pVTZ//B3LYP/6-311G(2d,d,p) 
 """,
 )
 
-entry(
-    index = 240,
-    label = "NH2 + N2H3 <=> H2NN(S) + NH3",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (2.21757, 'cm^3/(mol*s)'),
-        n = 6.42471,
-        Ea = (61.9432, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 16 data points; dA = *|/ 1.81287, dn = +|- 0.0756373, dEa = +|- 0.49381 kJ/mol',
-    ),
-    longDesc =
-u"""
-calculated by alongd (xc1089) at the CCSD(T)-F12/cc-pVTZ//M06-2x/cc-pVTZ level of theory
-rotor for NH2NHNH2 calculated at B3LYP/6-311++g(df,pd) in G03
-Using BAC; frequencyScaleFactor = 0.975
-""",
-)
-
-entry(
-    index = 241,
-    label = "NH2 + N2H3 <=> H2NN(T) + NH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.21757, 'cm^3/(mol*s)'),
-        n = 6.42471,
-        Ea = (61.9432, 'kJ/mol'),
-        T0 = (1, 'K'),
-        Tmin = (300, 'K'),
-        Tmax = (2500, 'K'),
-        comment = 'Fitted to 16 data points; dA = *|/ 1.81287, dn = +|- 0.0756373, dEa = +|- 0.49381 kJ/mol',
-    ),
-    longDesc =
-u"""
-calculated by alongd (xc1089) at the CCSD(T)-F12/cc-pVTZ//M06-2x/cc-pVTZ level of theory
-rotor for NH2NHNH2 calculated at B3LYP/6-311++g(df,pd) in G03
-Using BAC; frequencyScaleFactor = 0.975
-""",
-)
+#entry(
+#    index = 240,
+#    label = "NH2 + N2H3 <=> H2NN(S) + NH3",
+#    degeneracy = 1,
+#    duplicate = True,
+#    kinetics = Arrhenius(
+#        A = (2.21757, 'cm^3/(mol*s)'),
+#        n = 6.42471,
+#        Ea = (61.9432, 'kJ/mol'),
+#        T0 = (1, 'K'),
+#        Tmin = (300, 'K'),
+#        Tmax = (2500, 'K'),
+#        comment = 'Fitted to 16 data points; dA = *|/ 1.81287, dn = +|- 0.0756373, dEa = +|- 0.49381 kJ/mol',
+#    ),
+#    longDesc =
+#u"""
+#calculated by alongd (xc1089) at the CCSD(T)-F12/cc-pVTZ//M06-2x/cc-pVTZ level of theory
+#rotor for NH2NHNH2 calculated at B3LYP/6-311++g(df,pd) in G03
+#Using BAC; frequencyScaleFactor = 0.975
+#""",
+#)
+#
+#entry(
+#    index = 241,
+#    label = "NH2 + N2H3 <=> H2NN(T) + NH3",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(
+#        A = (2.21757, 'cm^3/(mol*s)'),
+#        n = 6.42471,
+#        Ea = (61.9432, 'kJ/mol'),
+#        T0 = (1, 'K'),
+#        Tmin = (300, 'K'),
+#        Tmax = (2500, 'K'),
+#        comment = 'Fitted to 16 data points; dA = *|/ 1.81287, dn = +|- 0.0756373, dEa = +|- 0.49381 kJ/mol',
+#    ),
+#    longDesc =
+#u"""
+#calculated by alongd (xc1089) at the CCSD(T)-F12/cc-pVTZ//M06-2x/cc-pVTZ level of theory
+#rotor for NH2NHNH2 calculated at B3LYP/6-311++g(df,pd) in G03
+#Using BAC; frequencyScaleFactor = 0.975
+#""",
+#)
 
 entry(
     index = 242,
