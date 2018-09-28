@@ -1693,7 +1693,7 @@ entry(
     shortDesc = u"""CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p)""",
     longDesc =
     u"""
-    aug-SMILES: NN[N::]
+    aug-SMILES: [N-]=[NH+]N
 
     calculated by alongd (xq1241, xc1104) at the CCSD(T)-F12/cc-pVTZ//B3LYP/6-311G(2d,d,p) level of theory
     frequencies calculated at B3LYP/6-311G(2d,d,p)
